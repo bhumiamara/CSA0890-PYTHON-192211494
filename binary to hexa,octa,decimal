@@ -1,0 +1,7 @@
+num=input("enter the binary number:")
+dec=int(num,2)
+oct=oct(dec)
+hex=hex(dec)
+print("decimal number",dec)
+print("octal number",oct[2:])
+print("hexadecimal",hex[2:])
