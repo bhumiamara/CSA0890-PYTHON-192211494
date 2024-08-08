@@ -1,0 +1,21 @@
+paragraph="""hello
+iam bhumika
+how are you"""
+lines=paragraph.split("\n")
+space_count=0
+line_count=0
+for line in lines:
+    space_count=line.count(" ")
+    print("lines",line_count+1,"no of space",space_count)
+    line_count+=1
+print(line_count)
+vowels="aeiouAEIOU"
+count1=0
+count2=0
+for i in paragraph:
+    if i in vowels:
+        count1+=1
+    else:
+        count2+=1
+print("vowels",count1)
+print("conosonants",count2)
